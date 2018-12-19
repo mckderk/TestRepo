@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Starting build..."
+  pre_build:
+    commands:
+      - echo Hello from pre_build
+  build:
+    commands:
+      - echo Hello from build
