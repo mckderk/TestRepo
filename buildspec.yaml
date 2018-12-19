@@ -15,5 +15,5 @@ phases:
       - ls -lha
 artifacts:
   files:
-    - target/dosomething.sh
-    - target/dosomethingelse.sh
+    - dosomething.sh
+    - dosomethingelse.sh
