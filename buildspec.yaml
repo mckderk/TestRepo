@@ -13,3 +13,7 @@ phases:
     commands:
       - echo Hello from build
       - ls -lha
+artifacts:
+  files:
+    - target/dosomething.sh
+    - target/dosomethingelse.sh
