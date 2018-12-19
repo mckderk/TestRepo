@@ -4,9 +4,12 @@ phases:
   install:
     commands:
       - echo "Starting build..."
+      - ls -lha
   pre_build:
     commands:
       - echo Hello from pre_build
+      - ls -lha
   build:
     commands:
       - echo Hello from build
+      - ls -lha
