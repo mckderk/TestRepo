@@ -13,7 +13,10 @@ phases:
     commands:
       - echo Hello from build
       - ls -lha
+  post_build:
+    commands:
+      - echo Hello from post_build
+      - zip artifacts.zip ./*
 artifacts:
   files:
-    - dosomething.sh
-    - dosomethingelse.sh
+    - artifacts.zip
