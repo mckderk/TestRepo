@@ -16,7 +16,7 @@ phases:
   post_build:
     commands:
       - echo Hello from post_build
-      - zip artifacts.zip ./*
+      - zip --symlinks -r artifacts.zip ./
 artifacts:
   files:
     - artifacts.zip
